@@ -2,6 +2,18 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/digital-synapse/Retrodactyl.Extensions.DotNet</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/digital-synapse/Retrodactyl.Extensions.DotNet</RepositoryUrl>
+    <PackageTags>Retrodactyl</PackageTags>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="LICENSE.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
