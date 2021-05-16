@@ -64,5 +64,10 @@ namespace Retrodactyl.Extensions.DotNet
         {
             return data.Take(count).GetEnumerator();
         }
+
+        public override string ToString()
+        {
+            return String.Join(",", GetEnumerable().Select(x => x.ToString()));
+        }
     }
 }
