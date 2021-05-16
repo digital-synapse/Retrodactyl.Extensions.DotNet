@@ -7,6 +7,8 @@
     <RepositoryUrl>https://github.com/digital-synapse/Retrodactyl.Extensions.DotNet</RepositoryUrl>
     <PackageTags>Retrodactyl</PackageTags>
     <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+    <Authors>digital-synapse</Authors>
+    <PackageVersion>$([System.DateTime]::Now.ToString("yyyy.MM.dd.HHmmss"))</PackageVersion>
   </PropertyGroup>
 
   <ItemGroup>
