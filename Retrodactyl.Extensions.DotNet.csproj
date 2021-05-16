@@ -8,6 +8,8 @@
     <PackageTags>Retrodactyl</PackageTags>
     <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
     <Authors>digital-synapse</Authors>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(DesignTimeBuild)' != 'true'">
     <PackageVersion>$([System.DateTime]::Now.ToString("yyyy.MM.dd.HHmmss"))</PackageVersion>
   </PropertyGroup>
 
