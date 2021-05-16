@@ -51,3 +51,6 @@ foreach (var item in items.GetEnumerable()){
   Console.WriteLine(item);
 }
 ```
+
+#### Need more help?
+Check out the [Unit Tests](https://github.com/digital-synapse/Retrodactyl.Extensions.DotNet.UnitTests)
